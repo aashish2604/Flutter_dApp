@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dapp/contract_linking.dart';
 import 'package:flutter_dapp/hello_page.dart';
+import 'package:flutter_dapp/nft_page.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const HelloPage(),
+        home: const NftPage(),
       ),
     );
   }
